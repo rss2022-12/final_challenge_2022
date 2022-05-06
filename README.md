@@ -54,9 +54,9 @@ As you can see from this grading scheme, it is possible to receive bonus points 
 
 Part B is worth 25% of your Final Challenge technical grade. Your grade will be calculated based on timed completion through the course (`best_city_time`, in seconds) and the number of `penalties` you incur as follows:
 
-`Part B grade = min(100 + staff_multiplier * (30 - best_city_time), 110) - penalties + car_wash`
+`Part B grade = min(100 + (45 - best_city_time), 110) - penalties + car_wash`
 
-Where `staff_multiplier` is a calibrating constant based off of the staff solution (TBA), `car_wash` is a possible 5 points if your car drives through the car wash and 0 points otherwise, and `penalties` is calculated as follows:
+Where `car_wash` is a possible 5 points if your car drives through the car wash and 0 points otherwise and `penalties` is calculated as follows:
 
 `penalties = 5 * num_collisions + 10 * traffic_infractions + 10 * manual_assist`
 
