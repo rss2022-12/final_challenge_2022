@@ -1,0 +1,5 @@
+... logging to /home/racecar/.ros/log/5179570a-c8d1-11ec-b0bb-00044bf23b6f/roslaunch-racecar-3313.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/racecar/racecar_ws/src/visual_servoing/launch/parking_deploy.launch
